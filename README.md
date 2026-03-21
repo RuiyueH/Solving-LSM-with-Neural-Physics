@@ -21,7 +21,11 @@ pip install -r requirements.txt
 
 ## Overview
 
-This repository contains code for a simple land surface model. Each folder contains Jupyter notebooks for the forward/inverse models, output files, and code and figures for visualising results. Below is a summary of the contents:
+This repository contains code to create forward and inverse models using the NN4PDEs method. 
+
+To help users understand the NN4PDEs method, we have included some sample code in the Jupyter notebook **Sample code.ipynb**. This notebook shows how we can calculate the second-order derivative of Sin(x) using the NNPDEs method. 
+
+The other folders contain code for the land surface model. Each of the folder contains Jupyter notebooks for the forward/inverse models, output files, and code and figures for visualising results. Below is a summary of the contents:
 
 ### Forward model/
 - **Forward_SEB_model.ipynb**: This file contains code for the forward model. It solves for temperature profiles in the soil over time, given known physical parameters and boundary conditions. 
