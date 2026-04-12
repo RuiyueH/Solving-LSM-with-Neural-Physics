@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 This repository contains code to create forward and inverse models using Neural Physics. 
 
-To help users understand the Neural Physics method, we have included some sample code in the Jupyter notebook **Sample code.ipynb**. This notebook shows how we can calculate the second-order derivative of Sin(x) using the Neural Physics method. 
+To help users understand the Neural Physics method, we have included some sample code in the Jupyter notebook **Sample code.ipynb**. This notebook shows how we can calculate the second-order derivative of Sin(x) using the Neural Physics method. For code that are run in Google Colab, you may need to subscribe to Colab Pro to ensure there is sufficient computing units. 
 
 The other folders contain code for the land surface model. Each of the folder contains Jupyter notebooks for the forward/inverse models, output files, and code and figures for visualising results. Below is a summary of the contents:
 
